@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+
+        <div class="navbar">
+            <h2>Books website</h2>
+        </div>
+
+    </nav>
+<main>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h3>By Charles Dickens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum molestiae quidem harum animi eum exercitationem beatae molestias sapiente illo dolore odit quibusdam, cumque voluptatum ipsam, ea error modi nesciunt!</p>
+            <button onclick="popupdelete(event)">Delete</button>
+        </div>
+
+    </div>
+     
+        
+    </div>
+    <div class="overlay">
+        <div class="popup">
+            <form>
+                <p><input type="text" placeholder="Book name" id="book-name" ></p>
+                <p><input type="text" placeholder="Author name" id="author-name" ></p>
+                <p><textarea placeholder="About the book" id="text-area"></textarea></p>
+                <button id="popup-add">Add</button>
+                <button id="popup-cancel">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="add-btn"><button>+</button></div>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
